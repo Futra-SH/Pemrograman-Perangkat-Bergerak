@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.testsfutra">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".akhir_revolusi"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_revolusi5"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_revolusi4"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_revolusi3"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_revolusi2"
+            android:exported="false" />
+        <activity
+            android:name=".akhir_nasional"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_nasional5"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_nasional4"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_nasional3"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_nasional2"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_nasional"
+            android:exported="false" />
+        <activity
+            android:name=".pahlawan_revolusi"
+            android:exported="false" />
+        <activity
+            android:name=".kirimsoal"
+            android:exported="false" />
+        <activity
+            android:name=".daftarpahlawan"
+            android:exported="false" />
+        <activity
+            android:name=".caramain"
+            android:exported="false" />
+        <activity
+            android:name=".menu_main"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

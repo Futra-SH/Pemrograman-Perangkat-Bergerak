@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context=".pahlawan_revolusi">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/test" />
+
+    <ImageView
+        android:layout_marginTop="300dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/revolusi3" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Bridjen D.I Panjaitan meninggal pada tahun ..."
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_marginStart="150dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="40dp"
+        android:id="@+id/radioGroup" >
+
+        <RadioButton
+            android:text="1 oktober 1964"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:onClick="onRadioButton"
+            android:layout_toLeftOf="@+id/radioGroup"
+            android:layout_below="@+id/radioGroup"/>
+
+        <RadioButton
+            android:text="1 oktober 1965"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton"
+            android:layout_alignLeft="@+id/radioButton"
+            android:layout_alignStart="@+id/radioButton"
+            android:layout_marginTop="36dp"
+            android:id="@+id/radioButton2"/>
+
+        <RadioButton
+            android:text="1 oktober 1966"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:id="@+id/radioButton3"
+            android:layout_below="@+id/radioButton2"
+            android:layout_alignLeft="@+id/radioButton2"
+            android:layout_alignStart="@+id/radioButton2"/>
+
+        <RadioButton
+            android:text="1 oktober 1967"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton3"
+            android:layout_alignLeft="@+id/radioButton3"
+            android:layout_alignStart="@+id/radioButton3"
+            android:layout_marginTop="39dp"
+            android:id="@+id/radioButton4"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/lanjut"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="600dp"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@color/red"
+        android:text="Lanjut"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+
+</RelativeLayout>

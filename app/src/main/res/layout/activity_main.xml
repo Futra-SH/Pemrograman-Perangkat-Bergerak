@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        android:id="@+id/button"
+        android:background="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="125dp"
+        android:layout_marginTop="305dp"
+        android:textColor="@color/black"
+        android:text="Klik Menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20dp"/>
+
+    <ToggleButton
+        android:id="@+id/sounds"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="125dp"
+        android:layout_marginTop="370dp"
+        android:background="@color/white"
+        android:onClick="onToggleClicked"
+        android:textColor="@color/black"
+        android:textOff="Sound Off"
+        android:textOn="Sound On"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
